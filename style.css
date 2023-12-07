@@ -1,11 +1,26 @@
 
+.titcadastro{
+  color: #c90929;
+}
 
+.accept{
+  color: #ecdfe1;
+  background-color: black;
+ 
+}
 
-
-
-.fieldset {
-  font-size: 100%;
-  background: linear-gradient(68.15,#c90929 16.62%, #9c7c75 85.61%);
+fieldset.cadast {
+  border-radius: 5%;
+  box-shadow: 2px 2px 19px 5px rgb(3, 105, 238);
+  margin: none;
+  padding: 2%;
+ background-color: aquamarine;
+display: inline-flex;
+left: 50%;
+ 
+  
+}
+ 
 }
 .nerd1{
     width: 280px;
@@ -23,9 +38,16 @@ font-size: 54px;
 
 
 }
+.accept {
+  color: #f00e37;
+}
 
 
 nav a:hover, nav a:focus {
     background-color: rgb(0, 0, 0);
     color: antiquewhite;
+}
+input, select, textarea, button {
+border-radius:5px;
+padding: 0.2em;
 }
